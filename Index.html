@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Pure — Pure RO · Pure Life</title>
+    <!-- Crystal Pure - Serving Lahore, Pakistan -->
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">CRYSTAL PURE</a>
+                <span>PURE RO • PURE LIFE</span>
+            </div>
+            <ul>
+                <li><a href="#water">Water delivery</a></li>
+                <li><a href="#custom">Custom bottles</a></li>
+                <li><a href="#calculator">Price calculator</a></li>
+                <li><a href="#standard">Our standard</a></li>
+                <li><a href="#contact">Talk to us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <p>SERVING LAHORE, PAKISTAN · 7-STAGE RO WATER · CUSTOM EVENT BOTTLING</p>
+            <p>PURE WATER. THOUGHTFUL DETAILS.</p>
+            <h1>Good water, beautifully delivered.</h1>
+            <p>Premium 7-stage RO drinking water for Lahore homes, offices and events — with custom bottles made to feel personal.</p>
+            <div>
+                <a href="#calculator">Order 19L water</a>
+                <a href="#custom">Explore custom bottles</a>
+            </div>
+            <div>
+                <p>Made for everyday rituals</p>
+                <p>Clean presentation, reliable service, local support.</p>
+                <p>TDS range: 30–50</p>
+            </div>
+        </section>
+
+        <!-- Everyday Hydration / Water Delivery -->
+        <section id="water">
+            <p>EVERYDAY HYDRATION</p>
+            <h2>Simple water service. One less thing to think about.</h2>
+            <p>Refill your existing 19L bottle or start with a new bottle set. Choose your quantity and area, then confirm the final total with our team.</p>
+            
+            <div class="products">
+                <!-- 19L Bottle Refill -->
+                <div class="product-card">
+                    <span>01 / REFILL</span>
+                    <h3>19L bottle refill</h3>
+                    <p class="price">Rs 150 <span>/ refill</span></p>
+                    <p>For customers who already have a 19-litre bottle and want a dependable refill.</p>
+                    <ul>
+                        <li>7-stage RO water</li>
+                        <li>Home & office orders</li>
+                    </ul>
+                    <a href="#calculator">Order a refill</a>
+                </div>
+
+                <!-- New 19L Bottle Set -->
+                <div class="product-card">
+                    <span>02 / BOTTLE SET</span>
+                    <h3>New 19L bottle set</h3>
+                    <p class="price">Rs 1,200 <span>/ set</span></p>
+                    <p>Get started with a bottle set. Displayed price includes bottle deposit and refill.</p>
+                    <ul>
+                        <li>Bottle + refill included</li>
+                        <li>Confirm stock on WhatsApp</li>
+                    </ul>
+                    <a href="https://wa.me/923255412233" target="_blank">Get a bottle set</a>
+                </div>
+
+                <!-- Custom Event Bottles -->
+                <div class="product-card">
+                    <span>03 / YOUR LABEL</span>
+                    <h3>Custom event bottles</h3>
+                    <p class="price">From <span>Rs 55*</span></p>
+                    <p>Wedding photos, couple names or company logos, printed on bottled water for your event.</p>
+                    <ul>
+                        <li>1.5L, 500ml & 330ml</li>
+                        <li>Waterproof label printing</li>
+                    </ul>
+                    <a href="#custom">Build a custom order</a>
+                </div>
+            </div>
+            <p>*Displayed custom bottle pricing is an estimate for 1.5L bottles. Final quote depends on size, quantity and artwork.</p>
+        </section>
+
+        <!-- Custom Event Bottles Section -->
+        <section id="custom">
+            <p>LABELS WITH A PERSONAL TOUCH — WEDDING / CORPORATE / EVENT</p>
+            <h2>Your event, your bottle.</h2>
+            <p>Make the smallest details feel considered. Add a bride and groom photo, your family names, an event date or a company logo to the water bottles on your tables.</p>
+            
+            <div class="occasions">
+                <div>
+                    <h3>01 — Wedding & Walima</h3>
+                    <p>Couple photos, names and event dates on 1.5L bottles.</p>
+                </div>
+                <div>
+                    <h3>02 — Corporate & hospitality</h3>
+                    <p>Company branding for offices, hotels and restaurants.</p>
+                </div>
+                <div>
+                    <h3>03 — Birthdays & special events</h3>
+                    <p>A custom label made around your occasion.</p>
+                </div>
+            </div>
+            <p>Waterproof, high-gloss label printing available for 1.5L, 500ml and 330ml purified water bottles.</p>
+        </section>
+
+        <!-- Price Calculator & Quick Order Builder -->
+        <section id="calculator">
+            <p>QUICK ORDER BUILDER</p>
+            <h2>Know your water subtotal upfront.</h2>
+            <p>Choose your bottle option and delivery area. Your water subtotal is calculated instantly; our team will confirm delivery charges and availability before you place the order.</p>
+            <p>Need a hand with your order? <a href="https://wa.me/923255412233" target="_blank">0325 5412233</a></p>
+
+            <form id="order-form">
+                <h3>19L WATER ORDER</h3>
+                <label for="bottles">Number of bottles</label>
+                <input type="number" id="bottles" value="3" min="1">
+                
+                <fieldset>
+                    <legend>Choose your bottle option</legend>
+                    <label>
+                        <input type="radio" name="bottle_option" value="refill" checked> 
+                        Refill only (I have bottles) — PKR 150 per 19L refill
+                    </label>
+                    <label>
+                        <input type="radio" name="bottle_option" value="new_set"> 
+                        New bottle set (Deposit + refill included) — PKR 1,200
+                    </label>
+                </fieldset>
+
+                <label for="area">Delivery area in Lahore</label>
+                <select id="area">
+                    <option value="gulberg">Gulberg (1, 2, 3)</option>
+                    <option value="dha">DHA Lahore (Phases 1–8)</option>
+                    <option value="johar_town">Johar Town & PIA Society</option>
+                    <option value="model_town">Model Town & Garden Town</option>
+                    <option value="cantt">Lahore Cantt & Askari</option>
+                    <option value="faisal_town">Faisal Town & Township</option>
+                    <option value="wapda_town">Wapda Town & Valencia</option>
+                    <option value="other">Other area in Lahore</option>
+                </select>
+
+                <div>
+                    <p>Estimated water subtotal</p>
+                    <p><strong>PKR 450</strong> (3 × PKR 150)</p>
+                    <p>Delivery fee is not included in this estimate and will be confirmed on WhatsApp.</p>
+                </div>
+
+                <button type="submit">Continue on WhatsApp</button>
+                <p>No online payment. Your order and final total are confirmed directly with Crystal Pure.</p>
+            </form>
+        </section>
+
+        <!-- Custom Bottling Enquiry Section -->
+        <section id="quote-request">
+            <p>PLAN YOUR PRINT RUN</p>
+            <h2>Start with a few details. We’ll take it from there.</h2>
+            
+            <form id="quote-form">
+                <h3>Request a quote</h3>
+                
+                <label for="occasion">Occasion</label>
+                <select id="occasion">
+                    <option value="wedding">Wedding / Walima</option>
+                    <option value="corporate">Corporate event</option>
+                    <option value="hotel">Hotel / Restaurant</option>
+                    <option value="birthday">Birthday / Celebration</option>
+                    <option value="other">Other event</option>
+                </select>
+
+                <label for="size">Bottle size</label>
+                <select id="size">
+                    <option value="1.5l" selected>1.5L</option>
+                    <option value="500ml">500ml</option>
+                    <option value="330ml">330ml</option>
+                </select>
+
+                <label for="quote-bottles">Number of bottles</label>
+                <input type="number" id="quote-bottles" value="250">
+
+                <label for="names">Couple names / company title (Optional)</label>
+                <input type="text" id="names" placeholder="e.g. Ali & Ayesha or your company name">
+
+                <label for="slogan">Event date / slogan (Optional)</label>
+                <input type="text" id="slogan" placeholder="e.g. Walima · 12 Nov 2026">
+
+                <label for="artwork">Photo or logo file (Optional)</label>
+                <input type="file" id="artwork">
+
+                <label for="notes">Anything else? (Optional)</label>
+                <textarea id="notes" placeholder="Bottle preferences, print idea, delivery area…"></textarea>
+
+                <div>
+                    <p>Indicative pricing: <strong>PKR 13,750 – 16,250</strong></p>
+                    <p>Estimate at Rs 55–65 per bottle; final quote to be confirmed.</p>
+                </div>
+
+                <button type="submit">Request quote on WhatsApp</button>
+                <p>Your details stay in this browser until you send the WhatsApp enquiry. Files are not uploaded by this website.</p>
+            </form>
+        </section>
+
+        <!-- Our Standard Section -->
+        <section id="standard">
+            <p>OUR STANDARD</p>
+            <h2>Pure is the promise. Care is in the details.</h2>
+            <p>Crystal Pure brings together everyday RO water delivery and thoughtful custom bottling, with local service for homes, offices, gatherings and businesses across Lahore.</p>
+            
+            <div>
+                <div>
+                    <h3>01</h3>
+                    <h4>7-stage RO purification</h4>
+                    <p>Purified drinking water, presented with a clear standard and simple ordering.</p>
+                </div>
+                <div>
+                    <h3>02</h3>
+                    <h4>Local, direct service</h4>
+                    <p>Lahore delivery enquiries and final order details are handled by our team.</p>
+                </div>
+                <div>
+                    <h3>03</h3>
+                    <h4>Built around your event</h4>
+                    <p>Custom waterproof labels for weddings, corporate events and hospitality.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs / Good to Know Section -->
+        <section id="faqs">
+            <p>GOOD TO KNOW</p>
+            <h2>A few things, made clear.</h2>
+            <p>Still have a question about your area, bottle choice or custom print? Get in touch directly.</p>
+            <a href="https://wa.me/923255412233" target="_blank">Ask on WhatsApp</a>
+
+            <details>
+                <summary>Which areas of Lahore do you deliver to?</summary>
+                <p>We serve areas including Gulberg, DHA Lahore, Johar Town, Model Town, Garden Town, Lahore Cantt, Askari, Faisal Town, Township, Wapda Town and Valencia. Choose “Other area” in the calculator and confirm your address with us on WhatsApp.</p>
+            </details>
+            <details>
+                <summary>Can I print a bride and groom photo or our company logo?</summary>
+                <p>Yes! You can share your custom artwork, names, logos, or photos to be printed on waterproof labels for your event bottles.</p>
+            </details>
+            <details>
+                <summary>What does the 19L new bottle set price include?</summary>
+                <p>The new 19L bottle set price includes both the physical bottle deposit and your first refill.</p>
+            </details>
+            <details>
+                <summary>How much do custom event bottles cost?</summary>
+                <p>Custom event bottles generally start around PKR 55 to 65 per bottle, depending on size (1.5L, 500ml, 330ml), total quantity, and print requirements.</p>
+            </details>
+        </section>
+
+        <!-- Call to Action Banner -->
+        <section id="contact">
+            <p>LET’S MAKE IT EASY</p>
+            <h2>Your next bottle starts with a message.</h2>
+            <p>Order a 19L refill, ask about delivery or start planning your custom event bottles.</p>
+            <a href="https://wa.me/923255412233" target="_blank">Message Crystal Pure — 0325 5412233</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <a href="#home">CRYSTAL PURE</a>
+            <p>Pure RO water, everyday delivery and custom bottled water for the moments worth celebrating.</p>
+        </div>
+        <div>
+            <h4>Explore</h4>
+            <ul>
+                <li><a href="#water">Water delivery</a></li>
+                <li><a href="#custom">Custom bottles</a></li>
+                <li><a href="#calculator">Price calculator</a></li>
+                <li><a href="#standard">Our standard</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Order support</h4>
+            <ul>
+                <li><a href="#water">Lahore delivery</a></li>
+                <li><a href="#custom">Custom bottle quote</a></li>
+                <li><a href="https://wa.me/923255412233" target="_blank">0325 5412233</a></li>
+            </ul>
+            <p>Lahore, Pakistan</p>
+        </div>
+        <div>
+            <p>THE CRYSTAL PURE STANDARD</p>
+            <p><strong>Pure RO. Pure life.</strong> Water with thought behind every detail.</p>
+            <p>© 2026 Crystal Pure. All rights reserved. Serving Lahore, Pakistan · Orders confirmed directly on WhatsApp</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+        <div>
+            <a href="https://wa.me/923255412233" target="_blank">Chat with us</a>
+        </div>
+    </footer>
+
+</body>
+</html>
